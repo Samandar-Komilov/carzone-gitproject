@@ -1,0 +1,3 @@
+1. django-admin startproject <pr_name> .
+Bu narsa alohida project papka ochmasdan, togri current directoryga project fillearini ochadi
+2. templates ni env, project va app bilan bir directoryga qoyish kerak
