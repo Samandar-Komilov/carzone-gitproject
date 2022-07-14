@@ -1,3 +1,9 @@
 1. django-admin startproject <pr_name> .
 Bu narsa alohida project papka ochmasdan, togri current directoryga project fillearini ochadi
 2. templates ni env, project va app bilan bir directoryga qoyish kerak
+3. gitignore.io
+Katta fayllarni githubga yuklash muammo bo'ladi. Shu sabab ularning bazilarini ignore qilish kerak. Aynan qaysilarini ignore qilish kerak ekanini assign qilish uchun gitignore yordam beradi
+4. front end yozilgan kodlar boshqa editorda ochilishi kerak
+5. inner project qismida static fayli ochiladi
+6. python manage.py collectstatic - nomidan ham malumki, statiklarni yig'ib chiqadi. Barcha statiklar uchun yagona path dan foydalanishni ta'minlaydi. Undan tashqari asosiy project directoryda yangi static papkasi paydo bo'ladi.
+7. Mabodo adashib qolinsa, python manage.py --help komandasi nima qayerda ekanini bizga eslatadi
