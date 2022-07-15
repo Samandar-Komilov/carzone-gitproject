@@ -7,3 +7,14 @@ Katta fayllarni githubga yuklash muammo bo'ladi. Shu sabab ularning bazilarini i
 5. inner project qismida static fayli ochiladi
 6. python manage.py collectstatic - nomidan ham malumki, statiklarni yig'ib chiqadi. Barcha statiklar uchun yagona path dan foydalanishni ta'minlaydi. Undan tashqari asosiy project directoryda yangi static papkasi paydo bo'ladi.
 7. Mabodo adashib qolinsa, python manage.py --help komandasi nima qayerda ekanini bizga eslatadi
+8. Agar hamma statik fayl ishlab bitta logo ishlamay qolsa, browser cache ni tozalash yordam berishi mumkin!
+
+
+
+1. startproject + app
+2. templates
+3. static (collectstatic)
+4. Divide into 3 parts: Top bar, Navbar, Footer (includes orqali)
+5. Dynamic Navigation links (about,contact, services - {% url 'about' %} orqali. Bu usul url belgilashni [pagedagi linkni assign qilishni] aynan bir faylga qaratib qoymasdan, uni urls dagi path ga bogliq qiladi va uni dinamik bolishiga zamin yaratadi.) + search barni boshqa page larda ham ishlaydigan qilish
+6. DB - PostgreSQL: The World's Most Advanced Open Source Relational Database. 
+7. PG Admin > new db > Schemas > Table
